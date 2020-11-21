@@ -19,15 +19,15 @@
 offer ， poll ， remove()和add的时间复杂度为O(log(n))。
 
 #####方法：
--boolean add(E e) 将指定的元素插入到此优先级队列中。
--void clear() 从此优先级队列中删除所有元素。
--boolean contains(Object o) 如果此队列包含指定的元素，则返回true。
--Iterator<E> iterator() 返回此队列中的元素的迭代器。
--boolean 	offer(E e) 将指定的元素插入到此优先级队列中。
--E peek() 检索但不删除此队列的头，如果此队列为空，则返回 null。
--E poll() 检索并删除此队列的头，如果此队列为空，则返回 null。
--boolean remove(Object o) 从该队列中删除指定元素的单个实例（如果存在）。
--int size() 返回此集合中的元素数。
+- boolean add(E e) 将指定的元素插入到此优先级队列中。
+- void clear() 从此优先级队列中删除所有元素。
+- boolean contains(Object o) 如果此队列包含指定的元素，则返回true。
+- Iterator<E> iterator() 返回此队列中的元素的迭代器。
+- boolean 	offer(E e) 将指定的元素插入到此优先级队列中。
+- E peek() 检索但不删除此队列的头，如果此队列为空，则返回 null。
+- E poll() 检索并删除此队列的头，如果此队列为空，则返回 null。
+- boolean remove(Object o) 从该队列中删除指定元素的单个实例（如果存在）。
+- int size() 返回此集合中的元素数。
 
 
 
